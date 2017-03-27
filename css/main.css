@@ -1685,7 +1685,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d7e58b;
+  background: #ff737e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2861,4 +2861,14 @@ pre .javascript .function {
 .post-body p a:hover {
   color: #0477ab;
   text-decoration: underline;
+}
+.site-author-image {
+  border-radius: 100%;
+  padding: 2px;
+  border: 2px dashed #fff;
+  animation: cycle 2s 0.5s forwards;
+  transition: border-radius 2s;
+}
+.site-author-name {
+  font-size: 16px;
 }
