@@ -7,7 +7,7 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
   if (document.hidden) {
     $('[rel="icon"]').attr('href', "/img/TEP.ico");
-    document.title = '╭(°A°`)╮ 页面崩溃啦 ~ | 量子广告！';
+    document.title = '╭(°A°`)╮ 页面崩溃啦 ~ | 南金东箭！';
     clearTimeout(titleTime);
   }
   else {
