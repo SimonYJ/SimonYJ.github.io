@@ -42,7 +42,7 @@
     <link href="http://yoursite.com/2017/03/29/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2017/03/29/我的博客/</id>
     <published>2017-03-29T11:55:36.000Z</published>
-    <updated>2017-03-31T04:43:52.603Z</updated>
+    <updated>2017-03-31T05:07:24.026Z</updated>
     
     <content type="html"><![CDATA[<h1 id="常用语法"><a href="#常用语法" class="headerlink" title="常用语法"></a>常用语法</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="section">这是 H1 一级标题</span></div><div class="line">======</div><div class="line"><span class="section">这是 H2 二级标题</span></div><div class="line">------</div><div class="line"><span class="section"># 这是 H1 一级标题</span></div><div class="line"><span class="section">## 这是 H2 二级标题</span></div><div class="line"><span class="section">### 这是 H3 三级标题</span></div><div class="line"><span class="section">#### 这是 H4 四级标题</span></div><div class="line"><span class="section">##### 这是 H5 五级标题</span></div><div class="line"><span class="section">###### 这是 H6 六级标题</span></div></pre></td></tr></table></figure>
 <p><strong>快捷键</strong>: [ctrl + h]</p>
@@ -212,7 +212,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;常用语法&quot;&gt;&lt;a href=&quot;#常用语法&quot; class=&quot;headerlink&quot; title=&quot;常用语法&quot;&gt;&lt;/a&gt;常用语法&lt;/h1&gt;&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h
+      这是对文章的描述，点击进入详情后不会显示
     
     </summary>
     
@@ -230,7 +230,7 @@
     <link href="http://yoursite.com/2017/03/28/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2017/03/28/我的第一篇博客/</id>
     <published>2017-03-28T01:12:42.000Z</published>
-    <updated>2017-03-31T04:40:43.370Z</updated>
+    <updated>2017-03-31T05:01:44.620Z</updated>
     
     <content type="html"><![CDATA[<h1 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h1><p>小书匠编辑器是一款专为markdown写作而设计的编辑器。</p>
 <h1 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h1><ol>
@@ -270,15 +270,7 @@
 <h2 id="重命名"><a href="#重命名" class="headerlink" title="重命名"></a>重命名</h2><p>直接修改元数据title，如果文章内未使用元数据功能，可通过<code>浏览器存储</code>里的修改文章信息进行修改</p>
 <h2 id="标签管理"><a href="#标签管理" class="headerlink" title="标签管理"></a>标签管理</h2><p>系统自动通过每篇文章的元数据<code>tags</code>提取为笔记的标签。</p>
 <h2 id="附件管理"><a href="#附件管理" class="headerlink" title="附件管理"></a>附件管理</h2><p>打开时，系统自动将笔记上的附件导入到文章对应的附件管理器上。保存时，系统将根据<strong>文章内对附件的引用</strong>，将附件保存到服务器上。这里的引用包括<code>音频</code>，<code>视频</code>，<code>附件</code>，<code>图片</code>。如果文章内使用到了<code>流程图</code>，<code>序列图</code>，<code>公式</code>，<code>统计图</code>等，系统将会把这些内容转换成图片进行保存。由于evernote/印象笔记在部分终端不提供视频，音频的支持，查看保存的文章时，对应的音频，视频将以附件的形式存储。</p>
-<h2 id="待办事项"><a href="#待办事项" class="headerlink" title="待办事项"></a>待办事项</h2><p>目前系统仅同步了待办事项。</p>
-<h1 id="github-dropbox"><a href="#github-dropbox" class="headerlink" title="github/dropbox"></a>github/dropbox</h1><h2 id="新建-1"><a href="#新建-1" class="headerlink" title="新建"></a>新建</h2><p>参考<code>evernote/印象笔记</code>的<code>新建</code></p>
-<h2 id="打开-1"><a href="#打开-1" class="headerlink" title="打开"></a>打开</h2><p>参考<code>evernote/印象笔记</code>的<code>打开</code><br>不同的是，github/dropbox只能打开扩展名为<code>html</code>，<code>markdown</code>，<code>md</code>，<code>mkd</code>以及无扩展名的文件。</p>
-<h2 id="保存-1"><a href="#保存-1" class="headerlink" title="保存"></a>保存</h2><p>参考<code>evernote/印象笔记</code>的<code>保存</code><br>不同的是，github/dropbox保存时，仅保存了markdown文章本身，并不会将markdown转换成html进行保存，也不会处理附件相关的内容。<br>对于新文章的保存，github/dropbox存储需要用户指定文件名及存储的位置。</p>
-<h2 id="删除-1"><a href="#删除-1" class="headerlink" title="删除"></a>删除</h2><p>系统不提供删除操作</p>
-<h2 id="重命名-1"><a href="#重命名-1" class="headerlink" title="重命名"></a>重命名</h2><p>系统不提供重命名操作，只能通过另存为<code>ctrl+shift+s</code>，保存成新的文件。</p>
-<h1 id="本地文件系统存储"><a href="#本地文件系统存储" class="headerlink" title="本地文件系统存储"></a>本地文件系统存储</h1><p>本地文件系统存储仅在离线版提供支持。</p>
-<h2 id="新建-2"><a href="#新建-2" class="headerlink" title="新建"></a>新建</h2><p>参考<code>evernote/印象笔记</code>的<code>新建</code></p>
-<h2 id="打开-2"><a href="#打开-2" class="headerlink" title="打开"></a>打开</h2><p>参考<code>github/dropbox</code></p>
+<h2 id="待办事项"><a href="#待办事项" class="headerlink" title="待办事项"></a>待办事项</h2><p>目前系统</p>
 ]]></content>
     
     <summary type="html">
