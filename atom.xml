@@ -42,7 +42,7 @@
     <link href="http://yoursite.com/2017/03/29/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2017/03/29/我的博客/</id>
     <published>2017-03-29T11:55:36.000Z</published>
-    <updated>2017-03-29T12:11:04.751Z</updated>
+    <updated>2017-03-31T04:43:52.603Z</updated>
     
     <content type="html"><![CDATA[<h1 id="常用语法"><a href="#常用语法" class="headerlink" title="常用语法"></a>常用语法</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="section">这是 H1 一级标题</span></div><div class="line">======</div><div class="line"><span class="section">这是 H2 二级标题</span></div><div class="line">------</div><div class="line"><span class="section"># 这是 H1 一级标题</span></div><div class="line"><span class="section">## 这是 H2 二级标题</span></div><div class="line"><span class="section">### 这是 H3 三级标题</span></div><div class="line"><span class="section">#### 这是 H4 四级标题</span></div><div class="line"><span class="section">##### 这是 H5 五级标题</span></div><div class="line"><span class="section">###### 这是 H6 六级标题</span></div></pre></td></tr></table></figure>
 <p><strong>快捷键</strong>: [ctrl + h]</p>
@@ -58,8 +58,7 @@
 <h2 id="水平线"><a href="#水平线" class="headerlink" title="水平线"></a>水平线</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="emphasis">***</span></div></pre></td></tr></table></figure>
 <h1 id="GFM扩展语法"><a href="#GFM扩展语法" class="headerlink" title="GFM扩展语法"></a>GFM扩展语法</h1><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">First Header  | Second Header</div><div class="line">------------- | -------------</div><div class="line">Content Cell  | Content Cell</div><div class="line">Content Cell  | Content Cell</div></pre></td></tr></table></figure>
 <h2 id="增强型表格"><a href="#增强型表格" class="headerlink" title="增强型表格"></a>增强型表格</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">|First Header  | Second Header ||</div><div class="line">|First Header  | Second Header | Third Header|</div><div class="line">|------------- | -------------|-------------|</div><div class="line">表身1Content Cell  | Merge Content Cell||</div><div class="line">Content Cell  | Content Cell| Content Cell|</div><div class="line"></div><div class="line">表身2Content Cell  | Merge Content Cell||</div><div class="line">Content Cell  | Content Cell| Content Cell|</div><div class="line">[表格标题]</div></pre></td></tr></table></figure>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h3 id="行内代码"><a href="#行内代码" class="headerlink" title="行内代码"></a>行内代码</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="code">`var x = "hello world"`</span></div></pre></td></tr></table></figure>
-<h3 id="块代码"><a href="#块代码" class="headerlink" title="块代码"></a>块代码</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="code">```javascript</span></div><div class="line">var a = "hello world";</div><div class="line">var b = "good luck";</div><div class="line">```</div></pre></td></tr></table></figure>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h3 id="行内代码"><a href="#行内代码" class="headerlink" title="行内代码"></a>行内代码<figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="code">`var x = "hello world"`</span></div></pre></td></tr></table></figure></h3><h3 id="块代码"><a href="#块代码" class="headerlink" title="块代码"></a>块代码</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="code">```javascript</span></div><div class="line">var a = "hello world";</div><div class="line">var b = "good luck";</div><div class="line">```</div></pre></td></tr></table></figure>
 <h2 id="自动转换成超链接"><a href="#自动转换成超链接" class="headerlink" title="自动转换成超链接"></a>自动转换成超链接</h2><p>系统将自动根据内容，将地址转换成超链接格式<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">http://markdown.xiaoshujiang.com</div></pre></td></tr></table></figure></p>
 <h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;div class="hey"&gt;Hello world&lt;/div&gt;</div></pre></td></tr></table></figure>
 <p><a href="https://github.com/github/markup/tree/master#html-sanitization" target="_blank" rel="external">支持的html标签</a></p>
@@ -231,7 +230,7 @@
     <link href="http://yoursite.com/2017/03/28/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2017/03/28/我的第一篇博客/</id>
     <published>2017-03-28T01:12:42.000Z</published>
-    <updated>2017-03-29T01:12:38.165Z</updated>
+    <updated>2017-03-31T04:40:43.370Z</updated>
     
     <content type="html"><![CDATA[<h1 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h1><p>小书匠编辑器是一款专为markdown写作而设计的编辑器。</p>
 <h1 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h1><ol>
@@ -251,9 +250,10 @@
 <li><strong>ppt跨屏演示</strong></li>
 <li><strong>pdf预览</strong></li>
 <li><strong>typewriter scrolling</strong></li>
-<li><strong>autocomplete 和 snippets 功能</strong></li>
+<li><strong>autocomplete 和 snippets 功能</strong><a id="more"></a>
+<h1 id="离线版下载地址"><a href="#离线版下载地址" class="headerlink" title="离线版下载地址"></a>离线版下载地址</h1></li>
 </ol>
-<h1 id="离线版下载地址"><a href="#离线版下载地址" class="headerlink" title="离线版下载地址"></a>离线版下载地址</h1><p><a href="http://soft.xiaoshujiang.com" target="_blank" rel="external">http://soft.xiaoshujiang.com</a></p>
+<p><a href="http://soft.xiaoshujiang.com" target="_blank" rel="external">http://soft.xiaoshujiang.com</a></p>
 <h1 id="WEB版访问地址"><a href="#WEB版访问地址" class="headerlink" title="WEB版访问地址"></a>WEB版访问地址</h1><p><a href="http://markdown.xiaoshujiang.com" target="_blank" rel="external">http://markdown.xiaoshujiang.com</a></p>
 <h1 id="元数据使用说明"><a href="#元数据使用说明" class="headerlink" title="元数据使用说明"></a>元数据使用说明</h1><p>语法开关元数据项，可以到设置面板里的语法扩展标签页下查看对应的元数据标识．在元数据里true时，表示当前文档强制打开该语法，false时表示强制关闭该语法．如果没有对应的元数据，则使用全局设置里的语法开关.</p>
 <p><code>preview_previewType</code>元数据，可用的值为<code>normal</code>和<code>presentation</code>．用于文章在打开时，控制是否需要系统切换对应的预览界面．如果文章里没有该项元数据，或者元数据值不正确，则系统默认使用<code>normal</code>预览界面．该元数据仅控制文章打开时初始化的界面，用户依然可以通过按钮在不同预览界面间切换．</p>
@@ -278,18 +278,30 @@
 <h2 id="重命名-1"><a href="#重命名-1" class="headerlink" title="重命名"></a>重命名</h2><p>系统不提供重命名操作，只能通过另存为<code>ctrl+shift+s</code>，保存成新的文件。</p>
 <h1 id="本地文件系统存储"><a href="#本地文件系统存储" class="headerlink" title="本地文件系统存储"></a>本地文件系统存储</h1><p>本地文件系统存储仅在离线版提供支持。</p>
 <h2 id="新建-2"><a href="#新建-2" class="headerlink" title="新建"></a>新建</h2><p>参考<code>evernote/印象笔记</code>的<code>新建</code></p>
-<h2 id="打开-2"><a href="#打开-2" class="headerlink" title="打开"></a>打开</h2><p>参考<code>github/dropbox</code>的<code>打开</code><br>不同的是，本地文件系统存储在打开文件时，将会自动关联文章内的附件引用标识<code>./</code>，自动抓取同级目录下对应的附件资源。</p>
-<h2 id="保存-2"><a href="#保存-2" class="headerlink" title="保存"></a>保存</h2><p>参考<code>github/dropbox</code>的<code>保存</code><br>不同的是，本地文件系统存储在保存时，不仅保存了markdown文章，还会处理附件相关的内容，将附件保存到同级目录下，请确保附件的名称不要重复，防止数据被覆盖丢失。</p>
-<h2 id="删除-2"><a href="#删除-2" class="headerlink" title="删除"></a>删除</h2><p>右击相应的文章可进行删除操作</p>
-<h2 id="重命名-2"><a href="#重命名-2" class="headerlink" title="重命名"></a>重命名</h2><p>右击相应的文章可进行重命名操作</p>
-<h1 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h1><p>小书匠编辑器<strong>离线版</strong>提供文章发布功能，用户可以将自己的文章发布到博客系统上。发布功能实现了博客的metaweblogAPI（newPost, editPost, newMediaObject）。使用该发布功能，需要博客系统提供对应的api接口，系统将转换成html的文章和图片自动提交到博客系统上。</p>
-<p><strong>配置发布示例：</strong><br>博客链接地址：比如<code>http://www.cnblogs.com/[用户名]/</code><br>用户名：用户在该博客上的用户</p>
+<h2 id="打开-2"><a href="#打开-2" class="headerlink" title="打开"></a>打开</h2><p>参考<code>github/dropbox</code></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;h1 id=&quot;概要&quot;&gt;&lt;a href=&quot;#概要&quot; class=&quot;headerlink&quot; title=&quot;概要&quot;&gt;&lt;/a&gt;概要&lt;/h1&gt;&lt;p&gt;小书匠编辑器是一款专为markdown写作而设计的编辑器。&lt;/p&gt;
-&lt;h1 id=&quot;主要功能&quot;&gt;&lt;a href=&quot;#主要功能&quot; class=
+&lt;h1 id=&quot;主要功能&quot;&gt;&lt;a href=&quot;#主要功能&quot; class=&quot;headerlink&quot; title=&quot;主要功能&quot;&gt;&lt;/a&gt;主要功能&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;专为markdown写作设计的文档编辑器&lt;/strong&gt;，让用户心无旁骛的进行创作。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多种编辑模式&lt;/strong&gt;。单栏编辑，双栏编辑，三栏编辑，全屏写作，全屏阅读…想怎么切换，就怎么切换，就是这样随心所欲。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多种编辑器实现&lt;/strong&gt;。codemirror编辑器（提供vim,emacs按键，行专注等），ace编辑器（提供vim，emacs按键绑定，显示行号），轻量编辑器，CJK竖排编辑器&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多种主题选择&lt;/strong&gt;。包括编辑器主题，预览区代码高亮主题，及预览区用户自定义css。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;丰富的语法支持&lt;/strong&gt;。不仅提供了常用的commanmarkdown语法，还提供了许多有用的扩展语法，比如==Latex公式==，==表格==, ==目录==， ==脚注==, ==视频==, ==音频==, ==附件==, ==checklist==, ==流程图==等。更多语法可查看&amp;lt;小书匠语法使用手册&amp;gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;代码块文字格式语法&lt;/strong&gt;。语法可查看&amp;lt;小书匠语法使用手册&amp;gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;第三方同步&lt;/strong&gt;。==浏览器存储==, ==本地文件系统存储==, ==dropbox==, ==evernote==, ==印象笔记==,==有道笔记==, ==为知笔记==, ==github==等多种存储方案，保证了用户数据的安全，也让用户在存储方案上有了更多的选择。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支持evernote，印象笔记&lt;/strong&gt;。提供双向操作，可以将文章保存到evernote/印象笔记上，也可以从evernote/印象笔记上导入数据。同时提供标签，附件，图片，待办等相关处理。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强大的文件管理功能&lt;/strong&gt;。文件信息，标签，附件，音频，视频，图片管理。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;发布功能&lt;/strong&gt;。 支持将文章发布到博客平台上。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;邮件发送功能&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;sourceMap对照功能&lt;/strong&gt;。方便在源markdown文件和生成的html文件上进行比较，特别适合markdown初学者使用，了解每一个markdown解析产生的结果，也适用于文章后期的校对上。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ppt&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ppt跨屏演示&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pdf预览&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;typewriter scrolling&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;autocomplete 和 snippets 功能&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;
     
     </summary>
     
