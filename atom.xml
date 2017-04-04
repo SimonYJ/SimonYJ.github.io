@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-04-03T09:37:38.291Z</updated>
+  <updated>2017-04-04T09:07:37.536Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,14 +20,18 @@
     <link href="http://yoursite.com/2017/04/03/Matlab%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2017/04/03/Matlab笔记/</id>
     <published>2017-04-03T07:44:47.000Z</published>
-    <updated>2017-04-03T09:37:38.291Z</updated>
+    <updated>2017-04-04T09:07:37.536Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Matlab常用功能"><a href="#Matlab常用功能" class="headerlink" title="Matlab常用功能"></a>Matlab常用功能</h1><h2 id="平台清理"><a href="#平台清理" class="headerlink" title="平台清理"></a>平台清理</h2><p>1.clear; %清理内存<br>2.clc; %清屏<br>3.close all; %关闭窗口<br>4.format compact; %定义数据显示的样式;紧凑样式，每行显示更多内容</p>
 <h2 id="程序计时"><a href="#程序计时" class="headerlink" title="程序计时"></a>程序计时</h2><p>1.tic; %开始计时，toc结束计时</p>
 <h2 id="常用热键"><a href="#常用热键" class="headerlink" title="常用热键"></a>常用热键</h2><p>1.Tab键: 提示命令，自动填充;<br>2.F5: 运行当前m文件;<br>3.F9: 运行当前选中代码;<br>4.Ctrl+Enter: 运行当前cell;<br>5.Ctrl+R: 注释选中的代码段;<br>6.Ctrl+T: 反注释选中的代码段;</p>
 <h2 id="查看函数的代码及帮助"><a href="#查看函数的代码及帮助" class="headerlink" title="查看函数的代码及帮助"></a>查看函数的代码及帮助</h2><p>1.open mean; %打开函数，查看代码;<br>2.help mean; %读取帮助;<br>3.doc mean; %查看详细帮助;<br><a id="more"></a></p>
-<h2 id="其他功能"><a href="#其他功能" class="headerlink" title="其他功能"></a>其他功能</h2><p>1.与其他程序的相互调用;<br>2.出版功能;</p>
-<h2 id="Matlab中的数据类型及其转化"><a href="#Matlab中的数据类型及其转化" class="headerlink" title="Matlab中的数据类型及其转化"></a>Matlab中的数据类型及其转化</h2><ul>
+<h2 id="查看Matlab-版本"><a href="#查看Matlab-版本" class="headerlink" title="查看Matlab 版本"></a>查看Matlab 版本</h2><p>1.version;</p>
+<h2 id="出版功能"><a href="#出版功能" class="headerlink" title="出版功能"></a>出版功能</h2><p>1.Matlab支持出版为各种格式，如pdf,doc,ppt,tex,html等等,方便在各种格式转化，也可以点publish按钮，窗口化操作;<br>2.publish(‘file_name’,’latex’) \%出版为latex,图片也会出版，默认publish（’file_name’,’html’）\%出版为html<br>3.publish(‘file_name’,’doc’) \%出版为doc publish(‘file_name’,’pdf’)出版为pdf,中文支持的不好，可先latex,再生成pdf;</p>
+<h2 id="查看内存"><a href="#查看内存" class="headerlink" title="查看内存"></a>查看内存</h2><p>1.memory</p>
+<h2 id="其他功能"><a href="#其他功能" class="headerlink" title="其他功能"></a>其他功能</h2><p>1.与其他程序的相互调用;</p>
+<h2 id="Matlab中的数据类型及其转化"><a href="#Matlab中的数据类型及其转化" class="headerlink" title="Matlab中的数据类型及其转化"></a>Matlab中的数据类型及其转化</h2><p>定义矩阵<br>1.a = [1 2 3]%默认为行矩阵，直接输入法<br>2.b = a’%转置，列矩阵<br>3.c = rand(2,3) %随机生成2*3矩阵<br>4.d = eye(4) %单位阵<br>5.e = zero(3,2) %零阵<br>6.f = ones(2,3) %全为1矩阵</p>
+<ul>
 <li>数值型（整型、单精度、双精度等）</li>
 <li>字符串型</li>
 <li>元胞型</li>
