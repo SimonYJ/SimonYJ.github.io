@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-04-10T06:31:05.251Z</updated>
+  <updated>2017-04-29T00:16:48.613Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/04/09/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2017/04/09/python学习笔记/</id>
     <published>2017-04-09T09:14:39.000Z</published>
-    <updated>2017-04-10T06:31:05.251Z</updated>
+    <updated>2017-04-29T00:16:48.613Z</updated>
     
     <content type="html"><![CDATA[<h2 id="python程序元素"><a href="#python程序元素" class="headerlink" title="python程序元素"></a>python程序元素</h2><ul>
 <li>注释</li>
@@ -37,7 +37,7 @@
 <h2 id="程序编写模板"><a href="#程序编写模板" class="headerlink" title="程序编写模板"></a>程序编写模板</h2><h3 id="input-print模板"><a href="#input-print模板" class="headerlink" title="input-print模板"></a>input-print模板</h3><p>用户输入 : input()获得输入;<br>运算部分 : 根据算法实现;<br>结果输出 : print()输出结果;</p>
 <h3 id="initial-print模板"><a href="#initial-print模板" class="headerlink" title="initial-print模板"></a>initial-print模板</h3><p>初始变量 : 运算需要的初始值;<br>运算部分 : 根据算法实现;<br>结果输出 : print()输出结果;</p>
 <h2 id="python蟒蛇绘制实例"><a href="#python蟒蛇绘制实例" class="headerlink" title="python蟒蛇绘制实例"></a>python蟒蛇绘制实例</h2><p>import turtle<br>def drawSnake(rad,angle,len,neckrad):<br>   for i in range(len):<br>       turtle.circle(rad,angle)<br>       turtle.circle(-rad,angle)<br>   turtle.circle(rad, angle/2)<br>   turtle.fd(rad)<br>   turtle.circle(neckrad+1,180)<br>   turtle.fd(rad*2/3)</p>
-<p>def main():<br>    turtle.setup(1300,800,0,0)<br>    pythonsize = 30<br>    turtle.pensize(pythonsize)<br>    turtle.pencorcle(“blue”)<br>    turtle.seth(-40)<br>    drawSnake(40,80,5,pythonsize/2)</p>
+<p>def main():<br>   turtle.setup(1300,800,0,0)<br>   pythonsize = 30<br>   turtle.pensize(pythonsize)<br>   turtle.pencolor(“blue”)<br>   turtle.seth(-40)<br>   drawSnake(40,80,5,pythonsize/2)</p>
 <p>main()<br>解析 :<br>1.程序运行main（）函数中的语句，turtle.setup()函数用于启动一个图形窗口，它有四个参数turtle.setup(width,height,startx,starty)分别是启动的窗口的宽度和高度以及起始坐标;<br>2.显示屏幕也是一个坐标系，该坐标系以左上角为原点，向左和向下分别是x轴和y轴;<br>3.turtle中的turtle.pensize()函数表示小乌龟运动轨迹的宽度;<br>4.turtle中的turtle.pencolor()函数表示小乌龟运动轨迹的颜色;<br>5.turtle中的turtle.seth(angle)函数表示小乌龟启动时运动的方向;<br>6.main()函数给出了小乌龟爬行的窗口大小，爬行轨迹颜色和宽度以及初始爬行的方位;<br>7.最后，调用drawSnake函数启动绘制蟒蛇功能;<br>8.turtle.circle(）函数让小乌龟沿着一个圆形爬行，参数rad描述圆形轨迹半径的位置：这个半径在小乌龟运行在左侧rad远位置处，如果rad为负值则半径在小乌龟运行的右侧，参数angle表示小乌龟沿着圆形爬行的弧度值;<br>9.turtle.fd()函数也可以用turtle.forward()表示乌龟向前直线爬行移动，参数为爬行距离;</p>
 ]]></content>
     
